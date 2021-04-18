@@ -1,0 +1,117 @@
+/* Font-family:"Raleway"
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7
+
+Die verwendete Schriftart: Raleway
+Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
+ */
+
+ body
+ {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-image: url(../img/photo-1443527216320-7e744084f5a7-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ header
+ { 
+     display: flex;
+     position: fixed;
+     justify-content: flex-end;
+     height: 76px;
+     width: 100%;
+     border-bottom: 1px solid #666;
+     border-top: 1px solid #666;
+     background-color: #fff;
+ }
+ nav
+ {
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ nav ul li
+ {
+     display: inline;
+     padding-left: 20px;
+    
+ }
+ nav a
+ {
+    text-decoration: none;
+    color: #333 ;
+    font-size: 24px;
+    
+ }
+ nav ul li a
+ {
+     text-decoration: none;
+     color: #333 ;
+ }
+
+ nav a:hover
+ {
+ color: #333;
+ }
+
+ nav ul li a:hover
+{
+    color: #337ab7 ;
+}
+.text
+{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main div h1
+{
+    color: #fff;
+    text-align: center;
+    font-size: 76px;
+}
+main div
+{
+    text-align: center;
+}
+main div p
+{
+    font-size: 18px;
+    color: #fff;
+}
+.buttons{
+    display: inline-flex;
+    justify-content:center;
+}
+#button1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    color: #fff;
+    display: flex;
+    width:200px;
+    padding: 10px;
+}
+#button2{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #745cf9;
+    border: 1px solid white;
+    color: #fff;
+    display: flex;
+    width:200px;
+    padding: 10px;
+}
+#button2:hover{
+    background-color: #5234f9;
+}
